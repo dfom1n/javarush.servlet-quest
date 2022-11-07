@@ -1,0 +1,63 @@
+{
+  "steps": [
+    {
+      "current": 1,
+      "next": 2,
+      "text": "Accept the challenge",
+      "question": "You lost your memory. Accept the UFO challenge?"
+    },
+    {
+      "current": 1,
+      "next": 3,
+      "text": "Reject call",
+      "question": "You lost your memory. Accept the UFO challenge?"
+    }, {
+      "current": 3,
+      "next": -1,
+      "text": null,
+      "question": "You rejected the call. Defeat"
+    },
+    {
+      "current": 2,
+      "next": 4,
+      "text": "Refuse to go up to the bridge",
+      "question": "You accepted the challenge. Going up to the bridge to the captain?"
+    },
+    {
+      "current": 4,
+      "next": -1,
+      "text": null,
+      "question": "You didn't negotiate. Defeat"
+    },
+    {
+      "current": 2,
+      "next": 5,
+      "text": "Going up to the bridge",
+      "question": "You accepted the challenge. Going up to the bridge to the captain?"
+    },
+    {
+      "current": 5,
+      "next": 7,
+      "text": "Lie about yourself",
+      "question": "You went up to the bridge. Who are you?"
+    },
+    {
+      "current": 7,
+      "next": -1,
+      "text": null,
+      "question": "Your lies have been exposed. Defeat"
+    },
+    {
+      "current": 5,
+      "next": 9,
+      "text": "Tell the truth about yourself",
+      "question": "You went up to the bridge. Who are you?"
+    },
+    {
+      "current": 9,
+      "next": -1,
+      "text": null,
+      "question": "Victory"
+    }
+  ]
+}
