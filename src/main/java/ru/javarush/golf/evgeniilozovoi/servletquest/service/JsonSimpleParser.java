@@ -1,17 +1,21 @@
-package ru.javarush.golf.evgeniilozovoi.servletquest.parser;
+package ru.javarush.golf.evgeniilozovoi.servletquest.service;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import ru.javarush.golf.evgeniilozovoi.servletquest.model.Step;
 
+import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
 public class JsonSimpleParser {
     private static Lang language;
-    private String PATH = "C:\\Java\\IdeaProjects\\servlet\\" + language.getPath();
+    private static final String absolutePath = "C:\\Java\\IdeaProjects\\servlet\\";
+    // TODO: 07.11.2022 fix to work with relative path 
+    private static final String workDir = System.getProperty("user.dir")+File.separator;
+    private String PATH = absolutePath+language.getPath();
     private static final String LIST_NAME = "steps";
     private static final String CURRENT_STEP = "current";
     private static final String NEXT_STEP = "next";

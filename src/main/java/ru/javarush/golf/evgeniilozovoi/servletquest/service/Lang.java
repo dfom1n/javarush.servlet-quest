@@ -1,4 +1,4 @@
-package ru.javarush.golf.evgeniilozovoi.servletquest.parser;
+package ru.javarush.golf.evgeniilozovoi.servletquest.service;
 
 
 public enum Lang {

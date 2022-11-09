@@ -1,7 +1,7 @@
 package ru.javarush.golf.evgeniilozovoi.servletquest.filter;
 
-import ru.javarush.golf.evgeniilozovoi.servletquest.parser.JsonSimpleParser;
-import ru.javarush.golf.evgeniilozovoi.servletquest.parser.Lang;
+import ru.javarush.golf.evgeniilozovoi.servletquest.service.JsonSimpleParser;
+import ru.javarush.golf.evgeniilozovoi.servletquest.service.Lang;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

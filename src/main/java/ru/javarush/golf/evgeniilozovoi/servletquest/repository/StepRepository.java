@@ -1,7 +1,7 @@
 package ru.javarush.golf.evgeniilozovoi.servletquest.repository;
 
 import ru.javarush.golf.evgeniilozovoi.servletquest.model.Step;
-import ru.javarush.golf.evgeniilozovoi.servletquest.parser.JsonSimpleParser;
+import ru.javarush.golf.evgeniilozovoi.servletquest.service.JsonSimpleParser;
 
 import java.util.List;
 import java.util.Objects;
@@ -27,7 +27,7 @@ public class StepRepository {
         return list.stream()
                 .filter(step -> step.getCurrent() == current)
                 .filter(Objects::nonNull)
-                .findFirst()
+                .findAny()
                 .get()
                 .getQuestion();
     }

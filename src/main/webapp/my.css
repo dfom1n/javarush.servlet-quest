@@ -3,3 +3,6 @@ td, th {
     padding: 0 2em 1em 0;
     border: 1px solid black;
 }
+body{
+    background-color: black;
+}
