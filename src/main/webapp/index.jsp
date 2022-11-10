@@ -17,7 +17,7 @@
                     <blockquote class="blockquote">
                         <p>Однажды весенним утром, ты проснулся и как всегда сварил себе чашечку кофе.
                             Ты подошел к окну что бы насладится видом на лес из своей квартиры,
-                            но эту минуту покоя нарушил твой верный друг "Джек", так звали маленький джека рассела,
+                            но эту минуту покоя нарушил твой верный друг "Джек", так звали маленького джека рассела,
                             который достался тебе от бывшей жены. Конечно, его уже давно пора было выгулять.
                             Ты собрался и отправился на прогулку в лес, в лесу ты решил отпустить Джека с поводка, и
                             конечно
@@ -35,7 +35,7 @@
                     </select>
                     <br>
                     <div class="input-group mb-3">
-                        <input name="name" type="text" class="form-control" placeholder="Enter username"
+                        <input name="name" type="text" class="form-control" placeholder="Введите имя"
                                aria-label="Recipient's username" aria-describedby="button-addon2">
                         <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Начать игру</button>
                     </div>

@@ -12,9 +12,8 @@
     <div class="row background-row">
         <div class="centered-top">
             <div class="p-3 mb-2 bg-light text-dark">
-                <h2>
-                    ${question}
-                </h2>
+                <h4>${question}
+                </h4>
                 <br>
                 <h3>
                     <form method="post" action="gameServlet">
